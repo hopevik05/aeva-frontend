@@ -1,0 +1,42 @@
+@import './common.scss';
+@import './override-antd.scss';
+
+.main-layout {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background: #141824;
+    border-radius: 24px;
+    padding: 16px;
+    border: 1px solid #272d31;
+
+}
+
+.submit-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #44B496;
+    border-radius: 6px;
+    height: 48px;
+    color: #000238;
+    text-transform: uppercase;
+}
+
+.submit-btn:hover {
+    background: #5BCBAD;
+}
+
+.submit-btn:disabled {
+    background: #738480 !important;
+    color: #82A498 !important;
+}

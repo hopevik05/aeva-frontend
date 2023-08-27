@@ -1,0 +1,55 @@
+.ant-modal-content {
+    background: #141824 !important;
+    border-radius: 12px !important;
+}
+
+.ant-modal-body {
+    padding: 0 !important;
+}
+
+.ant-modal-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    outline: 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.ant-input {
+    background-color: #353643;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: #F3F5F7;
+}
+
+.ant-select-dropdown {
+    background-color: #000000 !important;
+    padding: 0 !important;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background: #0B0F1C !important;
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background: #2e2e30 !important;
+}
+
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background: #0B0F1C !important;
+    padding-top: 5px !important;
+    border: none;
+    color: #C7DEFF;
+    padding-top: 14px;
+    height: 60px;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-select-single.ant-select-open .ant-select-selection-item {
+    color: #C7DEFF;
+}
